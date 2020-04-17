@@ -18,4 +18,4 @@ def is_palindrome(s: str) -> bool:
 
 
 if __name__ == "__main__":
-    print(is_palindrome("madam"))
+    print(is_palindrome("madam"))  # True
