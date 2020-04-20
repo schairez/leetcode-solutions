@@ -34,7 +34,7 @@ def matrix_reshape(orig_matrix: List[List[int]], r: int, c: int) -> List[List[in
     for row in range(len(orig_matrix)):
         for col in range(len(orig_matrix[0])):
             print(orig_matrix[row][col])
-            result_arr[count//c][count % c] = orig_matrix[row][col]
+            result_arr[count // c][count % c] = orig_matrix[row][col]
     return result_arr
 
 
